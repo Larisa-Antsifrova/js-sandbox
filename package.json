@@ -1,0 +1,28 @@
+{
+  "name": "lodash-lib-practice",
+  "version": "1.0.0",
+  "description": "Learning Lodash library.",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Larisa-Antsifrova/js-sandbox.git"
+  },
+  "author": "Larisa Antsifrova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Larisa-Antsifrova/js-sandbox/issues"
+  },
+  "homepage": "https://github.com/Larisa-Antsifrova/js-sandbox/",
+  "dependencies": {},
+  "resolutions": {
+    "node-forge": "0.10.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
